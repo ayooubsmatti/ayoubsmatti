@@ -11,8 +11,8 @@ const AboutMe = () => {
         <div className="col-lg-7 col-xl-8 about-desc">
           <h2>I&apos;m Ayoub Smatti, a Web Developer</h2>
           <p className="desc">
-            I&apos;m a designer &amp; developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets
-            client&apos;s requirements is our moto.
+            I&apos;m a Data analyste &amp; developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which
+            meets client&apos;s requirements is our moto.
           </p>
           <div className="row about-contact">
             <div className="col-sm-4 about-contact-item">
