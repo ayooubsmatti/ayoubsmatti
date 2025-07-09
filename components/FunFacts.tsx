@@ -49,12 +49,12 @@ const FunFacts = () => {
           <div className="fun-fact">
             <div className="numbers">
               <span className="number-outline-one" style={{ transform: `translate(${offsetX / 2}px, ${offsetY / 2}px)` }}>
-                145
+                33
               </span>
               <span className="number-outline-two" style={{ transform: `translate(${offsetX}px, ${offsetY}px)` }}>
-                145
+                33
               </span>
-              <span className="number-main">145</span>
+              <span className="number-main">33</span>
             </div>
             <p>Finished Projects</p>
           </div>
@@ -63,12 +63,12 @@ const FunFacts = () => {
           <div className="fun-fact">
             <div className="numbers">
               <span className="number-outline-one" style={{ transform: `translate(${offsetX / 2}px, ${offsetY / 2}px)` }}>
-                128
+                22
               </span>
               <span className="number-outline-two" style={{ transform: `translate(${offsetX}px, ${offsetY}px)` }}>
-                128
+                22
               </span>
-              <span className="number-main">128</span>
+              <span className="number-main">22</span>
             </div>
             <p>Happy Customers</p>
           </div>
@@ -79,12 +79,12 @@ const FunFacts = () => {
           <div className="fun-fact">
             <div className="numbers">
               <span className="number-outline-one" style={{ transform: `translate(${offsetX / 2}px, ${offsetY / 2}px)` }}>
-                865
+                2360
               </span>
               <span className="number-outline-two" style={{ transform: `translate(${offsetX}px, ${offsetY}px)` }}>
-                865
+                2360
               </span>
-              <span className="number-main">865</span>
+              <span className="number-main">2360</span>
             </div>
             <p>Working Hours</p>
           </div>

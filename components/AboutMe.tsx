@@ -9,24 +9,26 @@ const AboutMe = () => {
       <SectionTitle subtitle="Some Word About Me" title="Know Me More" />
       <div className="row mb-4 mb-lg-5 align-items-center">
         <div className="col-lg-7 col-xl-8 about-desc">
-          <h2>I&apos;m Ayoub Smatti, a Web Developer</h2>
+          <h2>I&apos;m Ayoub, a Consultant Power BI</h2>
           <p className="desc">
-            I&apos;m a Data analyste &amp; developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which
-            meets client&apos;s requirements is our moto.
+            With over 3 years of experience delivering end-to-end data solutions and insights for diverse industries. Proven track record in designing 22+ interactive Power BI dashboards that boosted decision-making speed by 70%.
+            <br />
+            Actively seeking a role as a Data & Analytics Consultant or Power BI Specialist in an innovative company committed to data-driven growth.{" "}
           </p>
           <div className="row about-contact">
             <div className="col-sm-4 about-contact-item">
-              <p>Email:</p>
-              <Link href="mailto:chat@portify.com">chat@portify.com</Link>
+              <h3>Email:</h3>
+              <Link href="mailto:chat@portify.com">saberayoubsmatti@gmail.com</Link>&apos;
             </div>
-            <div className="col-sm-4 about-contact-item">
+            <br />
+            {/* <div className="col-sm-4 about-contact-item">
               <p>Date of Birth:</p>
-              <span>11 November, 1987</span>
-            </div>
-            <div className="col-sm-4 about-contact-item">
+              <span>14 february, 1996</span>
+            </div> */}
+            {/* <div className="col-sm-4 about-contact-item">
               <p>Email:</p>
-              <span>Los Angeles, California</span>
-            </div>
+              <span>Quebec, Canada</span>
+            </div> */}
           </div>
         </div>
         <div className="col-lg-5 col-xl-4">
@@ -34,9 +36,9 @@ const AboutMe = () => {
             <div className="card-inner"></div>
             <div>
               <div className="numbers">
-                <span className="number-outline-one">10</span>
-                <span className="number-outline-two">10</span>
-                <span className="number-main">10</span>
+                <span className="number-outline-one">3</span>
+                <span className="number-outline-two">3</span>
+                <span className="number-main">3</span>
               </div>
               <p>Years of experience</p>
             </div>

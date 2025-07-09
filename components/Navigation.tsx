@@ -86,7 +86,7 @@ const Navigation = ({ setNavOpen, navOpen }: { setNavOpen: Dispatch<SetStateActi
               <span>08</span> <span className="text">how i work</span>{" "}
             </Link>
           </li>
-          <li onClick={() => setNavOpen(false)} className="nav-link">
+          {/* <li onClick={() => setNavOpen(false)} className="nav-link">
             <Link href="#blogs">
               <span>09</span> <span className="text">Blogs</span>{" "}
             </Link>
@@ -95,16 +95,16 @@ const Navigation = ({ setNavOpen, navOpen }: { setNavOpen: Dispatch<SetStateActi
             <Link href="#testimonials">
               <span>10</span> <span className="text">testimonials</span>{" "}
             </Link>
-          </li>
+          </li> */}
           <li onClick={() => setNavOpen(false)} className="nav-link">
             <Link href="#contact">
-              <span>11</span> <span className="text">contact</span>{" "}
+              <span>09</span> <span className="text">contact</span>{" "}
             </Link>
           </li>
         </ul>
         <div className="contact">
-          <Link href="mailto:john@wilson.com">emily@devis.com</Link>
-          <Link href="tel:+420 652 887 351">+420 652 887 351</Link>
+          <Link href="mailto:john@wilson.com">saberayoubsmatti@gmai.com</Link>
+          <Link href="tel:+420 652 887 351">+1 438-274-7801</Link>
         </div>
       </nav>
       <div onClick={() => setNavOpen(false)} className="nav-overlay d-xl-none"></div>

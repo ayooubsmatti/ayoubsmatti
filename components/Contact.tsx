@@ -121,7 +121,7 @@ const Contact = () => {
       </form>
 
       <div className="col mt-5 pt-5 next-chapter">
-        <span className="page">11/11</span>
+        <span className="page">09/11</span>
       </div>
     </section>
   );

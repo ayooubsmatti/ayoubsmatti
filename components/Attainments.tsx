@@ -9,27 +9,27 @@ import SectionOverlayText from "./SectionOverlayText";
 gsap.registerPlugin(ScrollTrigger);
 const skills = [
   {
-    name: "Front-End Development",
+    name: "Power BI (Reports, DAX, RLS)",
     percentage: 90,
   },
   {
-    name: "Back-End Development",
+    name: "	SQL & Power Query",
     percentage: 85,
   },
   {
-    name: "Full-Stack Development",
+    name: "	Data Modeling (Star Schema)",
     percentage: 88,
   },
   {
-    name: "Database Management",
+    name: "	Microsoft Fabric & Lakehouse",
     percentage: 80,
   },
   {
-    name: "Version Control",
+    name: "	CI/CD & Deployment pipelines",
     percentage: 95,
   },
   {
-    name: "API Integration",
+    name: "	ETL & Dataflows Gen2",
     percentage: 87,
   },
 ];
@@ -77,7 +77,7 @@ const Attainments = () => {
         <div className="col-lg-4">
           <div className="section-title-sm design-row-item">
             <div className="top">
-              <h2>Design Skills</h2>
+              <h2>Skills</h2>
               <span>Highlight My Expertise in:</span>
             </div>
             <span className="serial">01.-</span>
@@ -88,9 +88,9 @@ const Attainments = () => {
             <div className="col-md-4 design-row-item">
               <div className="d-flex flex-column align-items-center mb-4">
                 <div className="design-chart mb-4">
-                  <ProgressChart progress={85} />
+                  <ProgressChart progress={87} />
                 </div>
-                <button className="btn btn-outline-secondary px-5">Design</button>
+                <button className="btn btn-outline-secondary px-5"> Business Intelligence Expertise</button>
               </div>
             </div>
             <div className="col-md-4 design-row-item">
@@ -98,15 +98,15 @@ const Attainments = () => {
                 <div className="branding-chart mb-4">
                   <ProgressChart progress={90} />
                 </div>
-                <button className="btn btn-outline-secondary px-5">Branding</button>
+                <button className="btn btn-outline-secondary px-5">Data Engineering & Analytics</button>
               </div>
             </div>
             <div className="col-md-4 design-row-item">
               <div className="d-flex flex-column align-items-center mb-4">
                 <div className="ecommerce-chart mb-4">
-                  <ProgressChart progress={80} />
+                  <ProgressChart progress={90} />
                 </div>
-                <button className="btn btn-outline-secondary px-5">Ecommerce</button>
+                <button className="btn btn-outline-secondary px-5">Data Governance</button>
               </div>
             </div>
           </div>
@@ -116,7 +116,7 @@ const Attainments = () => {
         <div className="col-md-5 col-lg-4 offset-md-1 offset-lg-2">
           <div className="section-title-sm">
             <div className="top">
-              <h2>Developer Skills</h2>
+              <h2>Data Engineering & Analytics Competencies</h2>
               <span>Highlight My Expertise in:</span>
             </div>
             <span className="serial">02.-</span>
@@ -153,7 +153,7 @@ const Attainments = () => {
             <div className="col-12 col-sm-6 col-md-4 language-row-item">
               <div className="d-flex flex-column align-items-center mb-4">
                 <div className="branding-chart mb-4">
-                  <ProgressChart progress={92} />
+                  <ProgressChart progress={80} />
                 </div>
                 <button className="btn btn-outline-secondary px-5">English</button>
               </div>
@@ -161,9 +161,9 @@ const Attainments = () => {
             <div className="col-12 col-sm-6 col-md-4 language-row-item">
               <div className="d-flex flex-column align-items-center mb-4">
                 <div className="ecommerce-chart mb-4">
-                  <ProgressChart progress={88} />
+                  <ProgressChart progress={75} />
                 </div>
-                <button className="btn btn-outline-secondary px-5">Dutch</button>
+                <button className="btn btn-outline-secondary px-5">Spanish</button>
               </div>
             </div>
           </div>

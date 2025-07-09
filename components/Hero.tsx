@@ -27,12 +27,12 @@ const Hero = ({ classes }: { classes?: string }) => {
             <Typewriter
               component={"h1"}
               options={{
-                strings: ["Designer", "Developer"],
+                strings: ["Power BI Developer", "Data Analyst"],
                 autoStart: true,
                 loop: true,
               }}
             />
-            <p className="description">based in Los Angeles, California.</p>
+            <p className="description">based in Quebec, Canada.</p>
           </div>
           <div className="d-flex gap-4">
             <Link href="#projects" className="btn work-btn text-capitalize btn-secondary">

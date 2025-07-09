@@ -68,23 +68,23 @@ const Services = () => {
                   <span></span>
                 </div>
               </div>
-              <h4>UI/UX Design</h4>
+              <h4>Power BI Development & Reporting</h4>
               <ul className="service-list">
                 <li>
-                  <i className="ph ph-caret-double-right"></i> Landing Pages
+                  <i className="ph ph-caret-double-right"></i> Interactive & paginated reports
                 </li>
                 <li>
-                  <i className="ph ph-caret-double-right"></i> User Flow
+                  <i className="ph ph-caret-double-right"></i> KPI dashboard creation
                 </li>
                 <li>
-                  <i className="ph ph-caret-double-right"></i> Wireframing
+                  <i className="ph ph-caret-double-right"></i> DAX, RLS, performance tunin
                 </li>
                 <li>
-                  <i className="ph ph-caret-double-right"></i> Prototyping
+                  <i className="ph ph-caret-double-right"></i> CI/CD deployment pipelines
                 </li>
-                <li>
+                {/* <li>
                   <i className="ph ph-caret-double-right"></i> Mobile App Design
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -108,22 +108,19 @@ const Services = () => {
                   <span></span>
                 </div>
               </div>
-              <h4>Development</h4>
+              <h4>Data Engineering & ETL (Microsoft Fabric)</h4>
               <ul className="service-list">
                 <li>
-                  <i className="ph ph-caret-double-right"></i> Front-End Development
+                  <i className="ph ph-caret-double-right"></i> Power Query, Spark, SQL
                 </li>
                 <li>
-                  <i className="ph ph-caret-double-right"></i> Back-End Development
+                  <i className="ph ph-caret-double-right"></i> Data ingestion from multiple sources
                 </li>
                 <li>
-                  <i className="ph ph-caret-double-right"></i> Full-Stack Development
+                  <i className="ph ph-caret-double-right"></i> Automated pipelines (Dataflows Gen2)
                 </li>
                 <li>
-                  <i className="ph ph-caret-double-right"></i> Database Management
-                </li>
-                <li>
-                  <i className="ph ph-caret-double-right"></i> API Integration Design
+                  <i className="ph ph-caret-double-right"></i> Scalable processing in OneLake
                 </li>
               </ul>
             </div>
@@ -148,22 +145,19 @@ const Services = () => {
                   <span></span>
                 </div>
               </div>
-              <h4>Illustration</h4>
+              <h4>Data Modeling & Semantic Laye</h4>
               <ul className="service-list">
                 <li>
-                  <i className="ph ph-caret-double-right"></i> Character Design
+                  <i className="ph ph-caret-double-right"></i> Star schema, facts & dimensions
                 </li>
                 <li>
-                  <i className="ph ph-caret-double-right"></i> Icon Set
+                  <i className="ph ph-caret-double-right"></i> Centralized and certified datasets
                 </li>
                 <li>
-                  <i className="ph ph-caret-double-right"></i> Illustration Guide
+                  <i className="ph ph-caret-double-right"></i> Advanced DAX & calculation groups
                 </li>
                 <li>
-                  <i className="ph ph-caret-double-right"></i> Illustration Set
-                </li>
-                <li>
-                  <i className="ph ph-caret-double-right"></i> Motion Graphic Design
+                  <i className="ph ph-caret-double-right"></i> Reusable semantic models
                 </li>
               </ul>
             </div>
@@ -188,22 +182,19 @@ const Services = () => {
                   <span></span>
                 </div>
               </div>
-              <h4>App Development</h4>
+              <h4>BI & Data Strategy Consulting</h4>
               <ul className="service-list">
                 <li>
-                  <i className="ph ph-caret-double-right"></i> Android App
+                  <i className="ph ph-caret-double-right"></i> Needs analysis & stakeholder alignment
                 </li>
                 <li>
-                  <i className="ph ph-caret-double-right"></i> Ios App
+                  <i className="ph ph-caret-double-right"></i> BI architecture & governance
                 </li>
                 <li>
-                  <i className="ph ph-caret-double-right"></i> Wireframing
+                  <i className="ph ph-caret-double-right"></i> Adoption strategy & internal training
                 </li>
                 <li>
-                  <i className="ph ph-caret-double-right"></i> Prototyping
-                </li>
-                <li>
-                  <i className="ph ph-caret-double-right"></i> Mobile App Design
+                  <i className="ph ph-caret-double-right"></i> Roadmap development for BI maturity
                 </li>
               </ul>
             </div>

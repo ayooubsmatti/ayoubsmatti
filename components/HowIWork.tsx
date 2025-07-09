@@ -48,42 +48,42 @@ const HowIWork = () => {
           <span className="circle position-absolute w-100 h-100"></span>
           <div>
             <p>01.</p>
-            <p>idea</p>
+            <p>Requirements Gathering</p>
           </div>
         </div>
         <div className="process col-6">
           <span className="circle-even position-absolute w-100 h-100"></span>
           <div>
             <p>02.</p>
-            <p>sketch</p>
+            <p>Data Ingestion & Cleaning</p>
           </div>
         </div>
         <div className="process col-6">
           <span className="circle position-absolute w-100 h-100"></span>
           <div>
             <p>03.</p>
-            <p>design</p>
+            <p>Data Modeling</p>
           </div>
         </div>
         <div className="process col-6">
           <span className="circle-even position-absolute w-100 h-100"></span>
           <div>
             <p>04.</p>
-            <p>develop</p>
+            <p>Dashboard Development</p>
           </div>
         </div>
         <div className="process col-6">
           <span className="circle position-absolute w-100 h-100"></span>
           <div>
             <p>05.</p>
-            <p>text</p>
+            <p>Review & Validation</p>
           </div>
         </div>
         <div className="process col-6">
           <span className="circle-even position-absolute w-100 h-100"></span>
           <div>
             <p>06.</p>
-            <p>launch</p>
+            <p>Delivery & Training</p>
           </div>
         </div>
       </div>

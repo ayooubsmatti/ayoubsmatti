@@ -49,24 +49,38 @@ const Experience = () => {
         <div className="col-lg-10 col-xl-8">
           <div className="experience-wrapper d-flex flex-column">
             <div className="experience-item">
-              <h5>(2020 - Present)</h5>
-              <h3>Senior Web Developer at TechCorp:</h3>
-              <p>Spearheaded multiple web development projects, enhancing user experience and functionality. Led a team of developers to successfully launch high-traffic websites.</p>
+              <h5>(Dec 2024 - Present)</h5>
+              <h3>Data Analyst, PowerBI Developer:</h3>
+              <p>
+                • Automated manual Excel-based reports with Power BI, reducing report preparation time by 80%. • Conducted Exploratory Data Analysis (EDA) to identify data quality issues, patterns, and key trends for reporting. • Designed interactive dashboards used by 12+ stakeholders (Sales and
+                Marketing department). • Built a predictive staffing report using historical data to optimize workforce planning. • Delivered mobile-responsive dashboards and scheduled paginated reports to Sales and Marketing teams daily. • Collaborated with cross-functional teams to align insights
+                with operational and strategic business goals.
+              </p>
             </div>
             <div className="experience-item">
-              <h5>(2018 - 2020)</h5>
-              <h3>Front-End Developer at WebSolutions:</h3>
-              <p>Developed responsive and interactive front-end interfaces using HTML, CSS, and JavaScript. Collaborated closely with designers to implement visually appealing and user-friendly websites.</p>
+              <h5>(Sep 2023 - Jan 2024)</h5>
+              <h3>Machine Learning Researcher:</h3>
+              <p>
+                • Prepared and cleaned raw datasets to ensure quality inputs for machine learning models. • Performed Exploratory Data Analysis (EDA) to understand data distributions, detect anomalies, and guide feature selection. • Developed and trained machine learning models, optimizing for
+                accuracy and generalization. • Evaluated model performance using appropriate metrics (accuracy, precision, recall, F1-score) to ensure dependable predictions. • Collaborated with cross-functional teams to define and improve evaluation criteria for AI models. • Documented all
+                processes and model results to support transparency and reproducibility.
+              </p>
             </div>
             <div className="experience-item">
-              <h5>(2016 - 2018)</h5>
-              <h3>Junior Developer at CreativeWorks:</h3>
-              <p>Assisted in the development and maintenance of client websites. Gained hands-on experience with back-end technologies and database management.</p>
+              <h5>(Feb 2020 - Sep 2020)</h5>
+              <h3>Internship Data Scientist (Winter 2020):</h3>
+              <p>
+                • Developed a deep learning model that improved network intrusion detection accuracy and speed. • Built a machine learning classifier for reliable identification of various cyberattack types. • Created a full-stack web application to enable real-time monitoring and management of
+                security alerts. • Integrated AI models into a single platform, streamlining data processing and enhancing operational efficiency. • Authored the final year thesis documenting the research, development process, and results.
+              </p>
             </div>
             <div className="experience-item">
-              <h5>(2014 - 2016)</h5>
-              <h3>Freelance Web Developer:</h3>
-              <p>Worked on various freelance projects, creating custom websites for clients across different industries. Improved problem-solving skills and adaptability to client needs.</p>
+              <h5>(Dec 2019 - Feb 2020)</h5>
+              <h3>Internship Startup Incubation Program:</h3>
+              <p>
+                • Designed and developed a business model for an innovative startup, focusing on value proposition and market fit. • Created a comprehensive business plan including market research, financial forecasting, and growth strategies. • Coordinated startup launch activities, overseeing
+                operations and product development processes. •Presented the project to investors and stakeholders to secure funding and establish strategic partnerships.
+              </p>
             </div>
           </div>
 

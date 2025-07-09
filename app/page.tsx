@@ -73,9 +73,9 @@ export default function Home() {
             <HowIWork />
 
             {/* blog */}
-            <Blogs />
+            {/* <Blogs /> */}
             {/* <!-- testimonials --> */}
-            <Testimonials />
+            {/* <Testimonials /> */}
 
             {/* <!-- contact --> */}
             <Contact />
