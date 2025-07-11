@@ -98,7 +98,7 @@ const Navigation = ({ setNavOpen, navOpen }: { setNavOpen: Dispatch<SetStateActi
           </li> */}
           <li onClick={() => setNavOpen(false)} className="nav-link">
             <Link href="#contact">
-              <span>09</span> <span className="text">contact</span>{" "}
+              <span>11</span> <span className="text">contact</span>{" "}
             </Link>
           </li>
         </ul>

@@ -19,9 +19,9 @@ const Demos = () => {
     <OutsideClickHandler onOutsideClick={() => setOpened(false)}>
       <div className={`demos ${opened && "opened"}`}>
         <div className="d-flex align-items-center">
-          <button onClick={() => setOpened(!opened)} className="demo-btn">
+          {/* <button onClick={() => setOpened(!opened)} className="demo-btn">
             Demos
-          </button>
+          </button> */}
           <div className="demo-list">
             <div className="d-flex justify-content-between gap-2 align-items-center">
               <h3> Bg & Menu Styles</h3>

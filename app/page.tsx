@@ -78,6 +78,7 @@ export default function Home() {
             {/* <Testimonials /> */}
 
             {/* <!-- contact --> */}
+
             <Contact />
           </div>
         </div>
