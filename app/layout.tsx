@@ -9,8 +9,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Demos from "@/components/Demos";
 
 export const metadata: Metadata = {
-  title: "Portify - Personal Portfolio Template",
-  description: "Personal Portfolio Template for developers",
+  title: "Ayoub Smatti - Bi Consultant",
+  description: "Power BI Consultant",
 };
 type LayoutType = {
   children: React.ReactNode;
