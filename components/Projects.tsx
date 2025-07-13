@@ -16,29 +16,29 @@ import techshopBig from "@/public/images/techshop-big.png";
 import quickbiteBig from "@/public/images/quickbite-big.png";
 const projects = [
   {
-    name: "TechShop",
-    description: `TechShop is a state-of-the-art e-commerce platform designed to cater to the diverse needs of both businesses and consumers, providing a seamless shopping experience powered by cutting-edge technology and innovative design. The platform's sleek design, characterized by a clean layout and easy navigation, ensures that users can effortlessly browse through products, categories, and deals. TechShop offers a comprehensive product catalog management system, allowing businesses to showcase their products with rich media, detailed descriptions, and customer reviews. The checkout process on TechShop is designed to be smooth and hassle-free, minimizing cart abandonment rates and enhancing customer satisfaction. The platform integrates with multiple payment gateways, offering a variety of payment options, including credit/debit cards, digital wallets, and bank transfers. TechShop leverages advanced data analytics to offer personalized shopping experiences tailored to individual preferences and behaviors. The backend of TechShop is built using modern technologies, ensuring scalability, reliability, and security. The platform is compliant with international data protection regulations, employing industry-standard encryption and security protocols to safeguard user information. Looking ahead, TechShop aims to expand its reach and continue innovating to meet the evolving needs of the e-commerce landscape, with plans to integrate augmented reality for virtual try-ons and expand its global logistics network.`,
-    tags: ["design", "frontend", "backend"],
-    category: "E-commerce Platform",
+    name: "Vendor Performance Analysis",
+    description: `Effective inventory and sales management are critical for optimizing profitability in the retail and wholesale industry. Companies need to ensure that they are not incurring losses due to inefficient pricing, poor inventory turnover, or vendor dependency.`,
+    tags: ["SQL", "Python", "Power BI"],
+    category: "BI Solution",
     image: projectOne,
     bigImg: techshopBig,
   },
-  {
-    name: "Edumaster",
-    description: `Edumaster is a comprehensive online learning platform that empowers students and educators alike to explore new horizons in education. The platform offers a rich array of courses and educational resources that span multiple disciplines and skill levels. Edumaster's innovative approach to course delivery emphasizes engagement and interactivity, leveraging multimedia elements, including videos, animations, quizzes, and interactive exercises, to create immersive learning experiences. Edumaster offers personalized learning journeys tailored to individual goals, preferences, and learning styles. The platform adapts to the pace and progress of each student, providing targeted recommendations and feedback that support continuous improvement and mastery. The platform also offers a comprehensive suite of features for educators, including course authoring tools, analytics dashboards, and communication channels. Edumaster fosters a vibrant community of learners and educators who collaborate and connect through the platform. Discussion forums, peer reviews, group projects, and live sessions create opportunities for meaningful interaction and knowledge exchange. The platform is optimized for accessibility, offering features such as closed captioning, screen reader compatibility, and multilingual support. Looking to the future, Edumaster is poised to lead the way in shaping the future of education, with plans to incorporate cutting-edge technologies such as virtual reality and artificial intelligence.`,
-    tags: ["design", "frontend", "backend"],
-    category: "Online Learning Platform",
-    image: projectTwo,
-    bigImg: edumasterBig,
-  },
-  {
-    name: "QuickBite",
-    description: `QuickBite is a groundbreaking mobile app that redefines the food delivery experience, offering users a seamless, user-friendly, and innovative way to satisfy their cravings with just a few taps on their smartphones. The app's intuitive interface allows users to browse a vast selection of restaurants and cuisines, from local favorites to international delicacies. QuickBite offers real-time order tracking, allowing users to monitor the status of their delivery from preparation to arrival. QuickBite has established a highly efficient delivery network, partnering with a wide range of restaurants and local eateries to offer users an extensive selection of options. The app's sophisticated logistics system optimizes delivery routes and dispatches, ensuring that orders are fulfilled promptly and accurately. QuickBite prioritizes user-centric design, making the app accessible and easy to use for everyone. The app's clean and modern interface is complemented by seamless navigation and intuitive controls. To further enhance customer satisfaction and engagement, QuickBite offers a variety of promotions and loyalty programs. Users can take advantage of exclusive discounts, special offers, and rewards that incentivize repeat orders and foster brand loyalty. QuickBite is committed to ensuring the highest standards of quality and sustainability in its operations. The app collaborates with restaurants to ensure that food is delivered fresh and in an eco-friendly manner.`,
-    tags: ["ui/ux design", "mobile development"],
-    category: "Food Delivery Mobile App",
-    image: projectThree,
-    bigImg: quickbiteBig,
-  },
+  // {
+  //   name: "Edumaster",
+  //   description: `Edumaster is a comprehensive online learning platform that empowers students and educators alike to explore new horizons in education. The platform offers a rich array of courses and educational resources that span multiple disciplines and skill levels. Edumaster's innovative approach to course delivery emphasizes engagement and interactivity, leveraging multimedia elements, including videos, animations, quizzes, and interactive exercises, to create immersive learning experiences. Edumaster offers personalized learning journeys tailored to individual goals, preferences, and learning styles. The platform adapts to the pace and progress of each student, providing targeted recommendations and feedback that support continuous improvement and mastery. The platform also offers a comprehensive suite of features for educators, including course authoring tools, analytics dashboards, and communication channels. Edumaster fosters a vibrant community of learners and educators who collaborate and connect through the platform. Discussion forums, peer reviews, group projects, and live sessions create opportunities for meaningful interaction and knowledge exchange. The platform is optimized for accessibility, offering features such as closed captioning, screen reader compatibility, and multilingual support. Looking to the future, Edumaster is poised to lead the way in shaping the future of education, with plans to incorporate cutting-edge technologies such as virtual reality and artificial intelligence.`,
+  //   tags: ["design", "frontend", "backend"],
+  //   category: "Online Learning Platform",
+  //   image: projectTwo,
+  //   bigImg: edumasterBig,
+  // // },
+  // {
+  //   name: "QuickBite",
+  //   description: `QuickBite is a groundbreaking mobile app that redefines the food delivery experience, offering users a seamless, user-friendly, and innovative way to satisfy their cravings with just a few taps on their smartphones. The app's intuitive interface allows users to browse a vast selection of restaurants and cuisines, from local favorites to international delicacies. QuickBite offers real-time order tracking, allowing users to monitor the status of their delivery from preparation to arrival. QuickBite has established a highly efficient delivery network, partnering with a wide range of restaurants and local eateries to offer users an extensive selection of options. The app's sophisticated logistics system optimizes delivery routes and dispatches, ensuring that orders are fulfilled promptly and accurately. QuickBite prioritizes user-centric design, making the app accessible and easy to use for everyone. The app's clean and modern interface is complemented by seamless navigation and intuitive controls. To further enhance customer satisfaction and engagement, QuickBite offers a variety of promotions and loyalty programs. Users can take advantage of exclusive discounts, special offers, and rewards that incentivize repeat orders and foster brand loyalty. QuickBite is committed to ensuring the highest standards of quality and sustainability in its operations. The app collaborates with restaurants to ensure that food is delivered fresh and in an eco-friendly manner.`,
+  //   tags: ["ui/ux design", "mobile development"],
+  //   category: "Food Delivery Mobile App",
+  //   image: projectThree,
+  //   bigImg: quickbiteBig,
+  // },
 ];
 
 const Projects = () => {
@@ -124,23 +124,23 @@ const Projects = () => {
                     <div className="right-bar">
                       <div>
                         <p className="mb-1">Client</p>
-                        <h6 className="fw-semibold">Mashroom</h6>
+                        <h6 className="fw-semibold">Job search</h6>
                       </div>
                       <div>
                         <p className="mb-1">Category</p>
-                        <h6 className="fw-semibold">User Experience</h6>
+                        <h6 className="fw-semibold">Data Analysis</h6>
                       </div>
                       <div>
                         <p className="mb-1">Start Date</p>
-                        <h6 className="fw-semibold">02/08/2023</h6>
+                        <h6 className="fw-semibold">01/04/2025</h6>
                       </div>
                       <div>
                         <p className="mb-1">End Date</p>
-                        <h6 className="fw-semibold">01/03/2024</h6>
+                        <h6 className="fw-semibold">15/04/2025</h6>
                       </div>
                       <div>
                         <p className="mb-1">Tools</p>
-                        <h6 className="fw-semibold">Adobe Xd, Figma</h6>
+                        <h6 className="fw-semibold">SQL, Python, Power BI</h6>
                       </div>
                     </div>
                   </div>
