@@ -132,7 +132,7 @@ const Projects = () => {
                     <div className="right-bar">
                       <div>
                         <p className="mb-1">Client</p>
-                        <h6 className="fw-semibold">Job search</h6>
+                        <h6 className="fw-semibold">Randstad</h6>
                       </div>
                       <div>
                         <p className="mb-1">Category</p>
