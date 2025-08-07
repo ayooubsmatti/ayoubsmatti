@@ -165,7 +165,6 @@ const Projects = () => {
                     </div>
                   </div>
                   <h4 className="mb-3">📉 Analyse des Valeurs Négatives, Nulles et Valeurs Extrêmes:</h4>
-                  <p className="mb-4">Developed a website for a non-profit organization aimed at raising awareness and funds for environmental conservation. The site features educational content, event management, and donation capabilities.</p>
                   <ul className="bullet mb-4 pb-3 mb-xl-5">
                     <h5>🔸 Valeurs Négatives et Nulles: </h5>
                     <li>Gross Profit : Minimum de -52 002,78, signalant des pertes potentielles dues à des coûts élevés ou à des remises importantes..</li>
