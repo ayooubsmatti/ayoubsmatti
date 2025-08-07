@@ -16,7 +16,7 @@ import techshopBig from "@/public/images/techshop-big.png";
 import quickbiteBig from "@/public/images/quickbite-big.png";
 const projects = [
   {
-    name: "Vendor Performance Analysis",
+    name: "Sales Performance Analysis",
     description: `Effective inventory and sales management are critical for optimizing profitability in the retail and wholesale industry. Companies need to ensure that they are not incurring losses due to inefficient pricing, poor inventory turnover, or vendor dependency.`,
     tags: ["SQL", "Python", "Power BI"],
     category: "BI Solution",
