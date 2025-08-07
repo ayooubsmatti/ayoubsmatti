@@ -174,7 +174,7 @@ const Projects = () => {
                     <h5>🔸 Outliers détectés via de fortes déviations standard:</h5>
                     <li>Purchase Price & Actual Price : Les valeurs maximales (5 681,81 et 7 499,99) sont bien au-dessus des moyennes (24,39 et 35,64), indiquant la présence de produits premium ou de cas isolés à très forte valeur.</li>
                     <li>Freight Cost : Variation extrême de 0,09 à 257 032,07, reflétant des inefficacités logistiques, des envois en vrac ou des coûts d’expédition très irréguliers selon les produits.</li>
-                    <li>Stock Turnover : Allant de 0 à 274,5, cela montre que certains produits se vendent très rapidement alors que d'autres restent invendus. Une valeur > 1 indique que les ventes dépassent les achats grâce à un ancien stock utilisé pour honorer les commandes.</li>
+                    <li>Stock Turnover : Allant de 0 à 274,5, cela montre que certains produits se vendent très rapidement alors que d'autres restent invendus. Une valeur &gt; 1 indique que les ventes dépassent les achats grâce à un ancien stock utilisé pour honorer les commandes.</li>
                   </ul>
 
                   <h4 className="mb-3">🧹 Filtrage des Données</h4>
@@ -185,7 +185,7 @@ const Projects = () => {
                     <li>Total Sales Quantity = 0 : Suppression des produits achetés mais jamais vendus, susceptibles de fausser l’analyse des performances.</li>
                   </ul>
 
-                  <h4 className="mb-3">🔗 Corrélation entre les Variables (Correlation Insights)</h4>                  
+                  <h4 className="mb-3">🔗 Corrélation entre les Variables (Correlation Insights)</h4>
                   <div className="row gx-4 gy-4 gy-md-0 mb-4 mb-xl-5 pb-3">
                     <div className="col-md-6">
                       <Image src={projectDetailsCorrelation} className="w-100 img-fluid rounded-3" alt="" />
@@ -198,13 +198,16 @@ const Projects = () => {
                     <li>Stock Turnover vs. Gross Profit & Profit Margin : Corrélations négatives faibles (−0,038 et −0,055), montrant qu’un écoulement rapide des stocks n’est pas systématiquement associé à une meilleure rentabilité.</li>
                   </ul>
 
-                  <h4 className="mb-3">❓ Question de recherche 1 : Quelles marques nécessitent des ajustements de prix ou de promotion ?</h4>                  
+                  <h4 className="mb-3">❓ Question de recherche 1 : Quelles marques nécessitent des ajustements de prix ou de promotion ?</h4>
                   <div className="row gx-4 gy-4 gy-md-0 mb-4 mb-xl-5 pb-3">
                     <div className="col-md-6">
                       <Image src={questionderechercheOne} className="w-100 img-fluid rounded-3" alt="" />
                     </div>
                   </div>
-                  <p className="mb-4">🔍 Observation clé : <br/>198 marques présentent de faibles ventes mais des marges bénéficiaires élevées, ce qui pourrait être exploité grâce à un marketing ciblé, des promotions ou des optimisations de prix afin d’augmenter le volume sans compromettre la rentabilité.</p>
+                  <p className="mb-4">
+                    🔍 Observation clé : <br />
+                    198 marques présentent de faibles ventes mais des marges bénéficiaires élevées, ce qui pourrait être exploité grâce à un marketing ciblé, des promotions ou des optimisations de prix afin d’augmenter le volume sans compromettre la rentabilité.
+                  </p>
 
                   <div className="row gx-4 gy-4 gy-md-0 mb-4 mb-xl-5 pb-3">
                     <div className="col-md-6">
@@ -212,10 +215,16 @@ const Projects = () => {
                     </div>
                   </div>
 
-                  <h4 className="mb-3">❓ Question de recherche 2 : Quels sont les fournisseurs les plus dominants et quels risques leur concentration implique-t-elle ?</h4>                  
+                  <h4 className="mb-3">❓ Question de recherche 2 : Quels sont les fournisseurs les plus dominants et quels risques leur concentration implique-t-elle ?</h4>
 
-                  <p className="mb-4">🔍 Observation clé : <br/>Les 10 principaux fournisseurs représentent 65,69 % des achats totaux, tandis que tous les autres fournisseurs ne totalisent que 34,31 %.</p>
-                  <p className="mb-4">⚠️ Interprétation : <br/>Cette forte dépendance à un nombre restreint de fournisseurs peut exposer l’entreprise à des risques de rupture de la chaîne d’approvisionnement, de négociation déséquilibrée ou de perturbations imprévues.</p>
+                  <p className="mb-4">
+                    🔍 Observation clé : <br />
+                    Les 10 principaux fournisseurs représentent 65,69 % des achats totaux, tandis que tous les autres fournisseurs ne totalisent que 34,31 %.
+                  </p>
+                  <p className="mb-4">
+                    ⚠️ Interprétation : <br />
+                    Cette forte dépendance à un nombre restreint de fournisseurs peut exposer l’entreprise à des risques de rupture de la chaîne d’approvisionnement, de négociation déséquilibrée ou de perturbations imprévues.
+                  </p>
 
                   <div className="row gx-4 gy-4 gy-md-0 mb-4 mb-xl-5 pb-3">
                     <div className="col-md-6">
@@ -223,10 +232,15 @@ const Projects = () => {
                     </div>
                   </div>
 
-                  <h4 className="mb-3">❓ Question de recherche 3 : Quel est l’impact des achats en grande quantité sur le coût unitaire ?</h4>                  
+                  <h4 className="mb-3">❓ Question de recherche 3 : Quel est l’impact des achats en grande quantité sur le coût unitaire ?</h4>
 
-                  <p className="mb-4">🔍 Observation clé : <br/>Les commandes de grande taille permettent d’obtenir un coût unitaire moyen de 10,78 $, soit une réduction de 72 % par rapport aux petites commandes (39,06 $).</p>
-                  <p className="mb-4">⚠️ Interprétation : <br/> Les stratégies de tarification par volume incitent à passer des commandes plus importantes, ce qui permet de réduire les coûts d’achat, augmenter les marges, et stimuler les ventes totales tout en maintenant la rentabilité.</p>
+                  <p className="mb-4">
+                    🔍 Observation clé : <br />
+                    Les commandes de grande taille permettent d’obtenir un coût unitaire moyen de 10,78 $, soit une réduction de 72 % par rapport aux petites commandes (39,06 $).
+                  </p>
+                  <p className="mb-4">
+                    ⚠️ Interprétation : <br /> Les stratégies de tarification par volume incitent à passer des commandes plus importantes, ce qui permet de réduire les coûts d’achat, augmenter les marges, et stimuler les ventes totales tout en maintenant la rentabilité.
+                  </p>
 
                   <div className="row gx-4 gy-4 gy-md-0 mb-4 mb-xl-5 pb-3">
                     <div className="col-md-6">
@@ -234,10 +248,15 @@ const Projects = () => {
                     </div>
                   </div>
 
-                  <h4 className="mb-3">❓ Question de recherche 4 : Quels fournisseurs présentent une faible rotation des stocks et comment cela affecte-t-il la rentabilité ?</h4>                  
+                  <h4 className="mb-3">❓ Question de recherche 4 : Quels fournisseurs présentent une faible rotation des stocks et comment cela affecte-t-il la rentabilité ?</h4>
 
-                  <p className="mb-4">🔍 Observation clé : <br/>Le capital immobilisé dans les stocks invendus s’élève à 2,71 millions de dollars.</p>
-                  <p className="mb-4">⚠️ Interprétation : <br/> Une rotation lente des stocks engendre des coûts de stockage élevés, diminue l’efficacité des flux de trésorerie et impacte négativement la rentabilité globale de l’entreprise.</p>
+                  <p className="mb-4">
+                    🔍 Observation clé : <br />
+                    Le capital immobilisé dans les stocks invendus s’élève à 2,71 millions de dollars.
+                  </p>
+                  <p className="mb-4">
+                    ⚠️ Interprétation : <br /> Une rotation lente des stocks engendre des coûts de stockage élevés, diminue l’efficacité des flux de trésorerie et impacte négativement la rentabilité globale de l’entreprise.
+                  </p>
 
                   <div className="row gx-4 gy-4 gy-md-0 mb-4 mb-xl-5 pb-3">
                     <div className="col-md-6">
@@ -245,12 +264,17 @@ const Projects = () => {
                     </div>
                   </div>
 
+                  <h4 className="mb-3">❓ Question de recherche 5 : Comment les marges varient-elles entre les fournisseurs performants et sous-performants ?</h4>
 
-                  <h4 className="mb-3">❓ Question de recherche 5 : Comment les marges varient-elles entre les fournisseurs performants et sous-performants ?</h4>                  
-
-                  <p className="mb-4">🔍 Observation clé : <br/>Fournisseurs performants : Marge moyenne de 31,17 % avec un intervalle de confiance à 95 % entre 30,74 % et 31,61 %.
-                                                            <br/>Fournisseurs sous-performants : Marge moyenne de 41,55 % avec un intervalle de confiance à 95 % entre 40,48 % et 42,62 %.</p>
-                  <p className="mb-4">⚠️ Interprétation : <br/> Les fournisseurs sous-performants affichent des marges plus élevées mais peinent à générer du volume de ventes, ce qui peut révéler des inefficacités de tarification ou un manque de portée commerciale.</p>
+                  <p className="mb-4">
+                    🔍 Observation clé : <br />
+                    Fournisseurs performants : Marge moyenne de 31,17 % avec un intervalle de confiance à 95 % entre 30,74 % et 31,61 %.
+                    <br />
+                    Fournisseurs sous-performants : Marge moyenne de 41,55 % avec un intervalle de confiance à 95 % entre 40,48 % et 42,62 %.
+                  </p>
+                  <p className="mb-4">
+                    ⚠️ Interprétation : <br /> Les fournisseurs sous-performants affichent des marges plus élevées mais peinent à générer du volume de ventes, ce qui peut révéler des inefficacités de tarification ou un manque de portée commerciale.
+                  </p>
 
                   <div className="row gx-4 gy-4 gy-md-0 mb-4 mb-xl-5 pb-3">
                     <div className="col-md-6">
@@ -258,38 +282,40 @@ const Projects = () => {
                     </div>
                   </div>
 
-                   <h4 className="mb-3">❓ Question de recherche 6 : Existe-t-il une différence statistiquement significative entre les marges des fournisseurs performants et sous-performants ?</h4>                  
+                  <h4 className="mb-3">❓ Question de recherche 6 : Existe-t-il une différence statistiquement significative entre les marges des fournisseurs performants et sous-performants ?</h4>
 
-                  <p className="mb-4">🧪 Test d’hypothèse : <br/> H₀ (Hypothèse nulle) : Il n’y a pas de différence significative entre les marges bénéficiaires des deux groupes de fournisseurs.
-                                                            <br/> H₁ (Hypothèse alternative) : Il existe une différence significative entre les marges bénéficiaires des fournisseurs performants et sous-performants.</p>
-                  <p className="mb-4">⚠️ Interprétation : <br/> Les fournisseurs sous-performants affichent des marges plus élevées mais peinent à générer du volume de ventes, ce qui peut révéler des inefficacités de tarification ou un manque de portée commerciale.</p>
-                  <p className="mb-4">✅ Résultat : <br/> L’hypothèse nulle est rejetée, ce qui confirme que les deux groupes présentent des modèles de rentabilité distincts.</p>
-                  <p className="mb-4">💡 Implication stratégique :
-                              <br/> Les fournisseurs à fortes marges pourraient miser sur des stratégies tarifaires efficaces.
-                              <br/>Les fournisseurs à fort volume de ventes devraient se concentrer sur l’optimisation des coûts pour améliorer leurs marges.</p>
+                  <p className="mb-4">
+                    🧪 Test d’hypothèse : <br /> H₀ (Hypothèse nulle) : Il n’y a pas de différence significative entre les marges bénéficiaires des deux groupes de fournisseurs.
+                    <br /> H₁ (Hypothèse alternative) : Il existe une différence significative entre les marges bénéficiaires des fournisseurs performants et sous-performants.
+                  </p>
+                  <p className="mb-4">
+                    ⚠️ Interprétation : <br /> Les fournisseurs sous-performants affichent des marges plus élevées mais peinent à générer du volume de ventes, ce qui peut révéler des inefficacités de tarification ou un manque de portée commerciale.
+                  </p>
+                  <p className="mb-4">
+                    ✅ Résultat : <br /> L’hypothèse nulle est rejetée, ce qui confirme que les deux groupes présentent des modèles de rentabilité distincts.
+                  </p>
+                  <p className="mb-4">
+                    💡 Implication stratégique :
+                    <br /> Les fournisseurs à fortes marges pourraient miser sur des stratégies tarifaires efficaces.
+                    <br />
+                    Les fournisseurs à fort volume de ventes devraient se concentrer sur l’optimisation des coûts pour améliorer leurs marges.
+                  </p>
 
-
-
-
-                    <h2 className="mb-3 fw-semibold">✅ Recommandations Finales</h2>
-                    <ul className="list-plus">
-                      <li>Réévaluer la stratégie de tarification des marques à faibles ventes mais à forte marge afin d’augmenter les volumes sans compromettre la rentabilité.</li>
-                      <li>Diversifier les partenariats fournisseurs pour réduire la dépendance envers quelques fournisseurs et limiter les risques liés à la chaîne d’approvisionnement.</li>
-                      <li>Exploiter les avantages des achats en gros afin de maintenir des prix compétitifs tout en optimisant la gestion des stocks.</li>
-                      <li>Optimiser les stocks à faible rotation en ajustant les quantités commandées, en lançant des ventes de liquidation ou en révisant les stratégies d’entreposage.</li>
-                      <li>Renforcer les efforts de marketing et de distribution pour les fournisseurs sous-performants afin d’augmenter les volumes de ventes tout en maintenant les marges bénéficiaires.</li>
-                      <li>En appliquant ces recommandations, l’entreprise pourra améliorer durablement sa rentabilité, réduire ses risques opérationnels et accroître son efficacité globale.</li>
-                    </ul>
-
-
+                  <h2 className="mb-3 fw-semibold">✅ Recommandations Finales</h2>
+                  <ul className="list-plus">
+                    <li>Réévaluer la stratégie de tarification des marques à faibles ventes mais à forte marge afin d’augmenter les volumes sans compromettre la rentabilité.</li>
+                    <li>Diversifier les partenariats fournisseurs pour réduire la dépendance envers quelques fournisseurs et limiter les risques liés à la chaîne d’approvisionnement.</li>
+                    <li>Exploiter les avantages des achats en gros afin de maintenir des prix compétitifs tout en optimisant la gestion des stocks.</li>
+                    <li>Optimiser les stocks à faible rotation en ajustant les quantités commandées, en lançant des ventes de liquidation ou en révisant les stratégies d’entreposage.</li>
+                    <li>Renforcer les efforts de marketing et de distribution pour les fournisseurs sous-performants afin d’augmenter les volumes de ventes tout en maintenant les marges bénéficiaires.</li>
+                    <li>En appliquant ces recommandations, l’entreprise pourra améliorer durablement sa rentabilité, réduire ses risques opérationnels et accroître son efficacité globale.</li>
+                  </ul>
 
                   <div className="outcome">
                     <h5 className="mb-3">📂 Accès au projet complet:</h5>
                     <p>Les ressources détaillées de ce projet (code source, visualisations, données nettoyées et analyses avancées) sont disponibles sur demande.</p>
                     <p>👉 Pour y accéder, veuillez remplir le formulaire ci-dessous afin d’obtenir une autorisation d’accès au dépôt GitHub</p>
-                    <p>Une fois votre demande examinée, vous recevrez un lien GitHub privé si elle est approuvée.
-
-🔒 Cette procédure permet de protéger le contenu du projet tout en partageant les ressources avec des personnes sérieusement intéressées à des fins professionnelles ou académiques.</p>
+                    <p>Une fois votre demande examinée, vous recevrez un lien GitHub privé si elle est approuvée. 🔒 Cette procédure permet de protéger le contenu du projet tout en partageant les ressources avec des personnes sérieusement intéressées à des fins professionnelles ou académiques.</p>
                   </div>
                   <form className="contact-form full-width">
                     <h3 className="mb-3">Have project in mind? Let&apos;s discuss</h3>
