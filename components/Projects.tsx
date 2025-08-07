@@ -115,8 +115,8 @@ const Projects = () => {
                       {currentProject.name}
                     </h1>
                     <p className="mb-4 mb-xl-5">
-                      🧩 Problématique d’affaires – Optimisation des ventes et de la gestion des stocks <br /> Dans les secteurs du commerce de détail et de gros, une gestion efficace des ventes et des stocks est essentielle pour maximiser la rentabilité et assurer l'efficacité opérationnelle. Des
-                      stratégies de tarification inefficaces, une rotation lente des stocks ou une dépendance excessive à certains fournisseurs peuvent entraîner des pertes financières importantes
+                      🧩 Problématique d’affaires – Optimisation des ventes et de la gestion des stocks <br /> Dans les secteurs du commerce de détail et de gros, une gestion efficace des ventes et des stocks est essentielle pour maximiser la rentabilité et assurer l&apos;efficacité opérationnelle.
+                      Des stratégies de tarification inefficaces, une rotation lente des stocks ou une dépendance excessive à certains fournisseurs peuvent entraîner des pertes financières importantes
                     </p>
                     <h2 className="mb-3 fw-semibold">🎯 Objectifs du Projet</h2>
                     <p className="mb-4">Cette analyse vise à fournir des insights basés sur les données pour orienter la prise de décision stratégique en répondant aux objectifs suivants:</p>
@@ -174,7 +174,7 @@ const Projects = () => {
                     <h5>🔸 Outliers détectés via de fortes déviations standard:</h5>
                     <li>Purchase Price & Actual Price : Les valeurs maximales (5 681,81 et 7 499,99) sont bien au-dessus des moyennes (24,39 et 35,64), indiquant la présence de produits premium ou de cas isolés à très forte valeur.</li>
                     <li>Freight Cost : Variation extrême de 0,09 à 257 032,07, reflétant des inefficacités logistiques, des envois en vrac ou des coûts d’expédition très irréguliers selon les produits.</li>
-                    <li>Stock Turnover : Allant de 0 à 274,5, cela montre que certains produits se vendent très rapidement alors que d'autres restent invendus. Une valeur &gt; 1 indique que les ventes dépassent les achats grâce à un ancien stock utilisé pour honorer les commandes.</li>
+                    <li>Stock Turnover : Allant de 0 à 274,5, cela montre que certains produits se vendent très rapidement alors que d&apos;autres restent invendus. Une valeur &gt; 1 indique que les ventes dépassent les achats grâce à un ancien stock utilisé pour honorer les commandes.</li>
                   </ul>
 
                   <h4 className="mb-3">🧹 Filtrage des Données</h4>
@@ -192,7 +192,7 @@ const Projects = () => {
                     </div>
                   </div>
                   <ul className="bullet mb-4 pb-3 mb-xl-5">
-                    <li>Purchase Price vs. Total Sales Dollars & Gross Profit : Corrélation faible (−0,012 et −0,016), indiquant que les variations de prix d'achat n’ont pas d’impact significatif sur le revenu ou le profit généré.</li>
+                    <li>Purchase Price vs. Total Sales Dollars & Gross Profit : Corrélation faible (−0,012 et −0,016), indiquant que les variations de prix d&apos;achat n’ont pas d’impact significatif sur le revenu ou le profit généré.</li>
                     <li>Total Purchase Quantity vs. Total Sales Quantity : Corrélation très forte (0,999), confirmant une excellente rotation des stocks et une cohérence entre achats et ventes.</li>
                     <li>Profit Margin vs. Total Sales Price : Corrélation négative (−0,179), suggérant que l’augmentation des prix de vente peut entraîner une baisse des marges, possiblement en raison de pressions concurrentielles.</li>
                     <li>Stock Turnover vs. Gross Profit & Profit Margin : Corrélations négatives faibles (−0,038 et −0,055), montrant qu’un écoulement rapide des stocks n’est pas systématiquement associé à une meilleure rentabilité.</li>
