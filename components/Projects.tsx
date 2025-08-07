@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import projectOne from "@/public/images/project-one.png";
-import projectTwo from "@/public/images/project-two.png";
-import projectThree from "@/public/images/project-three.png";
 import Image from "next/image";
 import Link from "next/link";
 import { useGSAP } from "@gsap/react";
@@ -11,9 +9,7 @@ import SectionOverlayText from "./SectionOverlayText";
 import { createPortal } from "react-dom";
 import projectDetailsOne from "@/public/images/project-details-1.png";
 import projectDetailsTwo from "@/public/images/project-details-2.png";
-import edumasterBig from "@/public/images/edumaster-big.png";
 import techshopBig from "@/public/images/techshop-big.png";
-import quickbiteBig from "@/public/images/quickbite-big.png";
 import projectDetailsCorrelation from "@/public/images/project-details-correlation.png";
 import questionderechercheOne from "@/public/images/question_de_recherche.png";
 import questionrechercheoneparttwo from "@/public/images/question_de_recherche_part_two.png";
