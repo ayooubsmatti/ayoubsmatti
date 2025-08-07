@@ -20,7 +20,7 @@ import questionrecherchefive from "@/public/images/question_de_recherche_five.pn
 
 const projects = [
   {
-    name: "Sales Performance Analysis",
+    name: "Analyse des performances des ventes",
     description: `Dans les secteurs du commerce de détail et de gros, une gestion efficace des ventes et des stocks est essentielle pour maximiser la rentabilité et assurer l'efficacité opérationnelle. Des stratégies de tarification inefficaces, une rotation lente des stocks ou une dépendance excessive à certains fournisseurs peuvent entraîner des pertes financières importantes`,
     tags: ["SQL", "Python", "Power BI"],
     category: "BI Solution",
